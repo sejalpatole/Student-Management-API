@@ -6,7 +6,7 @@ import crud
 from database import engine, get_db
 from schemas import Student
 
-app = FastAPI(title="Student Management API")
+app = FastAPI(title="Student Management API - Internship")
 
 # Create database tables
 models.Base.metadata.create_all(bind=engine)
